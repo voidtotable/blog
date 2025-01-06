@@ -44,48 +44,6 @@ external_links_no_follow = false   # rel="nofollow"
 external_links_no_referrer = false # rel="noreferrer"
 smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` etc
 
-# # Any Extra language you do not use, delete or comment out the extra language sections:
-# [languages.fr]
-# title = "Abridge"
-# description = "Abridge est un thème Zola rapide et léger utilisant le html sémantique, le CSS abridge.css class-light et aucun JS obligatoire."
-# generate_feeds = true
-# build_search_index = true
-# search.include_title = true # include title of page/section in index
-# search.include_description = true # include description of page/section in index
-# search.include_content = true # include rendered content of page/section in index
-# # search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-# taxonomies = [
-# #    {name = "categories", feed = true},
-#     {name = "tags", feed = true},
-# ]
-
-# [languages.es]
-# title = "Abridge"
-# description = "Abridge es un tema de Zola rápido y liviano que utiliza HTML semántico, CSS ligero de clase abridge.css y JS no obligatorio."
-# generate_feeds = true
-# build_search_index = true
-# search.include_title = true # include title of page/section in index
-# search.include_description = true # include description of page/section in index
-# search.include_content = true # include rendered content of page/section in index
-# # search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-# taxonomies = [
-# #    {name = "categories", feed = true},
-#     {name = "tags", feed = true},
-# ]
-
-# [languages.pt]
-# title = "Abridge"
-# description = "Abridge é um tema rápido e leve que usa HTML semântico, CSS de clase leve abridge.css y JS não obrigatório."
-# generate_feeds = true
-# build_search_index = true
-# search.include_title = true # include title of page/section in index
-# search.include_description = true # include description of page/section in index
-# search.include_content = true # include rendered content of page/section in index
-# # search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-# taxonomies = [
-# #    {name = "categories", feed = true},
-#     {name = "tags", feed = true},
-# ]
 
 [extra]
 ###############################################################################
@@ -103,10 +61,10 @@ menu = [
     {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
-    {url = "about", name = "About", slash = true, blank = false, size="s90"},
-    {url = "contact", name = "Contact", slash = true, blank = false, size="s90"},
-    {url = "privacy", name = "Privacy", slash = true, blank = false, size="s90"},
-    {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true, size="s90"},
+    {url = "about", name = "About", slash = true, blank = false, size="s110"},
+    {url = "contact", name = "Contact", slash = true, blank = false, size="s110"},
+    {url = "privacy", name = "Privacy", slash = true, blank = false, size="s110"},
+    {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true, size="s110"},
 ]
 
 toc = true
@@ -123,9 +81,9 @@ meta_post = { position="top", size="s95", author=true, readtime=false, readstrin
 
 hide_section_dates = false # hides the date for sections that use posts.html as their template.
 hide_page_nextprev_titles = false # hides the next/previous titles for pages that use page.html as their template.
-title_size_index = "s85"
-footer_size = "s80" # the size of the copyright and powered by text
-footer_credit = true
+title_size_index = "s100"
+footer_size = "s90" # the size of the copyright and powered by text
+footer_credit = false
 #footer_credit_override = '<p class="s90">Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> &#38; <a href="https://github.com/Jieiku/abridge/" target="_blank">Abridge</a></p>'
 #archive_reverse = true # Set to True to sort posts chronologically per year instead of newest first on the archive page: example.com/archive/
 
@@ -151,9 +109,9 @@ foothr = false # show or hide horizontal rule above footer
 ###############################################################################
 
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
-title_addition = "" #"Fast, Lightweight, and Modern Zola Theme" # a default value for title addition (for SEO aim for 50-70 characters including the title and separator 'Abridge | title_addition')
-author = "Allison Sierra" # Put Your Name here
-keywords = "" #"Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
+title_addition = "My Musings on Tabletop Roleplaying Games and Design" #"Fast, Lightweight, and Modern Zola Theme" # a default value for title addition (for SEO aim for 50-70 characters including the title and separator 'Abridge | title_addition')
+author = "Allie" # Put Your Name here
+keywords = "roleplaying, games, rpg, design, tablestop, dungeons, dragons, dnd" #"Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
 #twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
 #google = "Your Google Site verification code."

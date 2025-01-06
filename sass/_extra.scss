@@ -3,16 +3,25 @@
  *****************************************************************************/
 
 big {
-    font-family: Montserrat, --ff;
-    font-weight: 900;
-
+    font-weight: 700;
 }
 
-.uppercase {
+big a{
+    font-weight: 700;
+}
+
+header big a{
+    font-weight: 900;
+}
+
+h1 a{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 400;
+}
+
+.title {
     text-transform: uppercase;
-}
-
-.s110 {
-    font-family: Montserrat, --ff;
-    font-weight: 900;
 }
